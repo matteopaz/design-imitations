@@ -23,18 +23,18 @@
         </header>
         <section class="left">
             <div class="start-wrapper">
-                <svg class="start-animation" width="unset" height="unset">
+                <svg id="start-animation" width="unset" height="unset">
                     <circle cx="50%" cy="50%" r="120px" fill="none" stroke-width="1px" stroke="white" opacity="0">
-                        <animate attributeName="opacity" from="0" to="1" dur="3s" repeatCount="999999" begin="0s"></animate>
-                        <animate attributeName="r" from="120px" to="0px" dur="3s" repeatCount="999999" begin="0s"></animate>
+                        <!-- <animate attributeName="opacity" from="0" to="1" dur="3s" repeatCount="999999" begin="0s"></animate>
+                        <animate attributeName="r" from="120px" to="0px" dur="3s" repeatCount="999999" begin="0s"></animate> -->
                     </circle>
-                    <circle cx="50%" cy="50%" r="80px" fill="none" stroke-width="1px" stroke="white">
-                        <animate id="op2" attributeName="opacity" from="0" to="1" dur="2s" repeatCount="999999" begin="0s;op2.end+100s"></animate>
-                        <animate id="r2" attributeName="r" from="80px" to="0px" dur="2s" repeatCount="999999" begin="0s;r2.end+100s"></animate>
+                    <circle cx="50%" cy="50%" r="80px" fill="none" stroke-width="1px" stroke="white" opacity="0">
+                        <!-- <animate id="op2" attributeName="opacity" from="0" to="1" dur="2s" repeatCount="999999" begin="0s;op2.end+100s"></animate>
+                        <animate id="r2" attributeName="r" from="80px" to="0px" dur="2s" repeatCount="999999" begin="0s;r2.end+100s"></animate> -->
                     </circle>
-                    <circle cx="50%" cy="50%" r="40px" fill="none" stroke-width="1px" stroke="white">
-                        <animate id="op3" attributeName="opacity" from="0" to="1" dur="1s" repeatCount="999999" begin="0s;op3.end+200s"></animate>
-                        <animate id="r3" attributeName="r" from="40px" to="0px" dur="1s" repeatCount="999999" begin="0s;r3.end+200s"></animate>
+                    <circle cx="50%" cy="50%" r="40px" fill="none" stroke-width="1px" stroke="white" opacity="0">
+                        <!-- <animate id="op3" attributeName="opacity" from="0" to="1" dur="1s" repeatCount="999999" begin="0s;op3.end+200s"></animate>
+                        <animate id="r3" attributeName="r" from="40px" to="0px" dur="1s" repeatCount="999999" begin="0s;r3.end+200s"></animate> -->
                     </circle>
                     <circle cx="50%" cy="50%" r="10px" fill="white"></circle>
                 </svg>
@@ -124,6 +124,7 @@
 
         </div>
     </main>
+    <script src="./script.js"></script>
 </body>
 
 </html>

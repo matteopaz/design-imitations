@@ -168,6 +168,12 @@ header :last-child {
     align-items: center;
 }
 
+
+/* #start-animation {
+    width: unset;
+    height: unset;
+} */
+
 .start-wrapper {
     aspect-ratio: 1;
     height: 20rem;
@@ -181,8 +187,6 @@ header :last-child {
     grid-row: 1 / 1;
     grid-column: 1 / 1;
 }
-
-.start-animation {}
 
 .start {
     border: none;
